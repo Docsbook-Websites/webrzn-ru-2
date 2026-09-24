@@ -1,61 +1,57 @@
 ---
-title: "Core concepts"
-description: "Learn the handful of words webrzn.ru uses everywhere, so the rest of the documentation and the interface stop feeling like a translation."
+title: "Форматы и термины ВебРзн"
+description: "Разберитесь, чем лендинг отличается от сайта компании и интернет-магазина, и какие услуги дополняют разработку."
 status: generated
-version: "0.1"
+version: "0.2"
 ---
 
-# Core concepts
+# Форматы и термины ВебРзн
 
-Every product has ten or so words that carry its whole model. Learn them once and the rest of the documentation reads like plain English.
-
-Each entry below gives the word, what it is, and the mistake people make about it. That last part is the useful one — definitions are easy, and misunderstandings are what generate support tickets.
-
-> **Fill this in:** replace the entries below with the real nouns from webrzn.ru. Keep the shape — name, definition, common confusion — and keep the list under about ten items. A glossary nobody finishes is a glossary nobody reads.
+ВебРзн выбирает формат сайта под задачу бизнеса. Ниже — основные термины, которые встречаются в предложениях студии.
 
 <!-- widget:accordion -->
 
-### Workspace
+### Лендинг
 
-The boundary that separates one group's work from another's. Everything else lives inside one.
+Одностраничный сайт, который ведёт посетителя к одному действию: заявке, звонку или заказу. Подходит для одной услуги, товара или рекламной кампании.
 
-**Common confusion:** people expect a workspace to behave like a folder. It is closer to an account, and moving things between workspaces is usually deliberate and occasionally impossible.
+### Сайт-визитка
 
-### Project
+Небольшой сайт, который представляет компанию, специалиста или услугу. На главном сайте ВебРзн базовый сайт-визитка указан как формат от 25 000 ₽; точный состав работ и стоимость нужно подтвердить по задаче.
 
-A unit of work inside a workspace, with its own settings and history.
+### Сайт для компании
 
-**Common confusion:** a project looks like a good place to separate environments. Say whether it is intended that way before somebody splits production and staging across two.
+Корпоративный сайт с разделами о компании, услугах, направлениях, новостях или документах. Структура зависит от того, какую информацию нужно дать клиентам и партнёрам.
 
-### Source
+### Интернет-магазин
 
-The place data comes from, together with the credential used to read it.
+Сайт с каталогом товаров, корзиной и оформлением заказа. ВебРзн разрабатывает магазины на OpenCart; базовый комплект на отдельной странице описан как 89 000 ₽.
 
-**Common confusion:** deleting a source rarely deletes what was already imported. State plainly what disappears and what stays.
+### SEO-продвижение
 
-### Member and role
+Работы, которые помогают сайту присутствовать в поисковой выдаче: SEO-подготовка при разработке и дальнейшее продвижение. Конкретный состав и бюджет зависят от проекта.
 
-Who has access, and how much.
+### Яндекс Директ
 
-**Common confusion:** role names sound like job titles, so people match them to the org chart instead of to the permissions. Write the permissions next to the name — [Invite your team](./guides/invite-your-team.md) has the table.
+Рекламная система, для которой ВебРзн настраивает и ведёт кампании. Студия делает акцент на целевых обращениях, а не только на количестве переходов.
 
-### Run
+### CMS
 
-One execution of the work, with a start, an end and an outcome you can look at.
-
-**Common confusion:** a run that produced nothing looks identical to a run that never started. Say where run history lives, and what a successful run looks like there.
+Система управления содержимым сайта. ВебРзн работает с WordPress, Joomla, Drupal и OpenCart, выбирая систему под функциональность и дальнейшее развитие проекта.
 
 <!-- /widget -->
 
-## Naming things you create
+## Как выбрать формат
 
-Two rules save a lot of cleanup later. Put the environment in the name, because "final" and "test" always survive longer than intended. And name things after what they are for rather than who made them — people leave, purposes stay.
+Выбирайте лендинг, если нужна одна посадочная страница под конкретное действие. Выбирайте сайт компании, если нужно раскрыть несколько услуг или направлений. Интернет-магазин нужен, когда посетитель должен выбрать товар и оформить заказ онлайн.
+
+Если задача связана с привлечением посетителей, обсудите SEO или Яндекс Директ вместе с разработкой сайта.
 
 <!-- widget:cards plain cols=2 -->
 
-## Next steps
+## Дальше
 
-- [What webrzn.ru can do](./features/overview.md) — the vocabulary in use {layers}
-- [Import your data](./guides/import-your-data.md) — sources, in practice {database}
+- [Что входит в услуги](./features/overview.md) — сравнить форматы {layers}
+- [Как начать](./getting-started.md) — перейти к брифу и обсуждению {rocket}
 
 <!-- /widget -->

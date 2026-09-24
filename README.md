@@ -1,70 +1,53 @@
 ---
-title: "webrzn.ru documentation"
-description: "Find your way around webrzn.ru: set it up, learn the model behind it, roll it out to your team and get unstuck fast."
+title: "ВебРзн — создание сайтов под ключ"
+description: "Сайты для бизнеса и госучреждений: от лендинга до интернет-магазина, с уникальным дизайном, SEO-подготовкой и поддержкой."
 status: generated
-version: "0.1"
+version: "0.2"
 ---
 
 <!-- widget:hero -->
 
-**Documentation**
+**Веб-студия из Рязани**
 
-# webrzn.ru
+# Сайты, которые помогают бизнесу получать заявки
 
-Set it up, learn how it thinks, bring your team in, and find the answer when something looks wrong — in the order you will actually need them.
+ВебРзн создаёт сайты под ключ для бизнеса и государственных учреждений: сайты-визитки, лендинги, корпоративные сайты и интернет-магазины. Делаем уникальный дизайн, адаптивную вёрстку, SEO-подготовку и помогаем с продвижением.
 
-- [Get started](./getting-started.md) {rocket}
-- [Core concepts](./concepts.md) {compass}
-- [What it can do](./features/overview.md) {layers}
-- [FAQ](./faq.md) {circle-help}
-
-<!-- /widget -->
-
-> **Replace this blockquote** with two or three sentences describing what webrzn.ru does, written for somebody who has never heard of it. Name the job it does rather than the category it sits in — "keeps stock counts in sync across warehouses" tells a reader more than "an operations platform".
-
-## Start where you are
-
-<!-- widget:cards lineup cols=4 -->
-
-- [Set it up](./getting-started.md) — From sign-up to a working setup in one sitting. {rocket} {bg:#c7d2fe}
-
-  - 15 minutes
-  - Checkpoints
-  - No code
-
-- [Learn the model](./concepts.md) — The ten words that make every other page readable. {compass} {bg:#ddd6fe}
-
-  - Vocabulary
-  - Roles
-  - Boundaries
-
-- [Roll it out](./guides/invite-your-team.md) — Bring colleagues in without handing everyone admin. {users} {bg:#bfdbfe}
-
-  - Invitations
-  - Roles
-  - Access review
-
-- [Fix something](./troubleshooting.md) — Work out what went wrong, in the order that finds it fastest. {wrench} {bg:#e0e7ff}
-
-  - Symptoms
-  - Causes
-  - What to send us
+- [Выбрать формат сайта](./features/overview.md) {layers}
+- [Посмотреть работы](./integrations.md) {images}
+- [Заполнить бриф](https://webrzn.ru/order-website.html) {clipboard-list}
 
 <!-- /widget -->
 
-## How this site is organised
+ВебРзн работает с 2003 года. По данным основного сайта студии, команда реализовала более 600 проектов и предоставляет год бесплатной поддержки.
 
-Each section makes a different promise, and mixing them is what makes documentation hard to read.
+## Что можно заказать
 
-- **[Getting started](./getting-started.md)** is the shortest path from nothing to a working setup. It assumes no prior knowledge and explains nothing it does not have to.
-- **[Concepts](./concepts.md)** defines the words the interface uses, so the rest of the site stops reading like a translation.
-- **[Features](./features/overview.md)** describes capabilities, so an evaluator can decide whether webrzn.ru covers their case before signing up.
-- **[Guides](./guides/invite-your-team.md)** are task-shaped. Each has a goal in the title and ends with a result you can check.
-- **[Integrations](./integrations.md)**, **[Security](./security.md)**, **[Troubleshooting](./troubleshooting.md)** and the **[FAQ](./faq.md)** answer the questions that arrive after the product is in use.
+<!-- widget:cards feature cols=2 -->
 
-## Two habits that keep this site true
+- [Лендинг](./features/overview.md#лендинг) — Одностраничный сайт под услугу, товар или рекламную кампанию. {layout-template} {color:green}
+- [Сайт для компании](./features/overview.md#сайт-для-компании) — Представьте компанию, услуги и направления в понятной структуре. {building-2} {color:blue}
+- [Интернет-магазин](./features/overview.md#интернет-магазин) — Магазин на OpenCart с каталогом, корзиной и личным кабинетом. {shopping-cart} {color:purple}
+- [Продвижение и реклама](./features/overview.md#продвижение-и-реклама) — SEO-продвижение и настройка рекламы в Яндекс Директ. {chart-no-axes-combined} {color:orange}
 
-1. Change the page in the same pull request that changes the product. A stale instruction costs more support time than a missing one.
-2. When a customer asks the same question twice, write the answer down once instead of answering it a third time.
+<!-- /widget -->
 
-Link to https://webrzn.ru/ from the product's help menu so nobody has to go looking for these pages.
+## Как начать
+
+Опишите задачу в [брифе](https://webrzn.ru/order-website.html). Он занимает 2–3 минуты; после этого студия рассчитывает стоимость и сроки под ваш проект.
+
+<!-- widget:callout type=note -->
+
+**Важно:** итоговая стоимость и срок зависят от формата сайта, объёма работ и дополнительных задач. На страницах ниже указаны только суммы и сроки, которые опубликованы для конкретной услуги.
+
+<!-- /widget -->
+
+<!-- widget:cards plain cols=2 -->
+
+## Дальше
+
+- [Форматы и услуги](./features/overview.md) — сравнить основные направления {layers}
+- [Портфолио и подход](./integrations.md) — посмотреть типы выполненных проектов {images}
+- [Вопросы и ответы](./faq.md) — коротко о цене, процессe и поддержке {circle-help}
+
+<!-- /widget -->

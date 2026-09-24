@@ -1,61 +1,51 @@
 ---
-title: "Troubleshooting"
-description: "Work out what went wrong in webrzn.ru in the right order, fix the common causes yourself, and know exactly what to send if you need help."
+title: "Если сайт не работает или не приносит заявки"
+description: "Проверьте сайт по порядку: доступность, отображение, формы, функции, поисковую видимость и рекламу."
 status: generated
-version: "0.1"
+version: "0.2"
 ---
 
-# Troubleshooting
+# Если сайт не работает или не приносит заявки
 
-Work through this page in order. Most problems are caught in the first section, and the later sections are much more work.
-
-## First, establish what actually happened
-
-Three questions, in this order:
-
-1. **What did you expect?** Write it in one sentence. Half of all reported bugs dissolve here.
-2. **What happened instead?** The exact message, copied rather than paraphrased. Error text is searchable; "it didn't work" is not.
-3. **When?** A timestamp with a time zone. Logs are indexed by time, and "this morning" spans four hours.
-
-## The usual causes
+Сначала определите симптом. Не обновляйте CMS и плагины самостоятельно, если не уверены в последствиях: ВебРзн рекомендует передавать такие работы специалистам.
 
 <!-- widget:accordion -->
 
-### It works for you and fails for a colleague
+### Сайт полностью недоступен
 
-Almost always permissions. Compare roles rather than accounts — two people in the same team can hold different ones, and the difference is invisible from the outside. See [Invite your team](./guides/invite-your-team.md).
+Проверьте, открывается ли сайт с другого устройства и соединения. Если вместо страницы отображается ошибка, запишите точный текст и время. Затем обратитесь в студию по адресу [info@webrzn.ru](mailto:info@webrzn.ru).
 
-### It worked yesterday and fails today
+### Не открывается административная панель
 
-An expired or rotated credential. Re-issue the token, retry once, and check whether it belongs to the environment you think it does.
+Не меняйте несколько настроек подряд. Зафиксируйте адрес панели, текст ошибки и момент, когда проблема появилась. Если доступы потеряны, сообщите об этом студии отдельно.
 
-### It works on small input and fails on large
+### На странице не работают отдельные функции
 
-A limit: size, rate or timeout. Retry with a fraction of the input. If the small version succeeds, you have found the shape of the problem without reading a log.
+Проверьте контент, изображения, формы, галереи и другие функции на телефоне и компьютере. После обновления CMS или плагина проблема может быть связана с совместимостью.
 
-### The answer is right but the numbers are wrong
+### Сайт открывается, но заявок мало
 
-Time zone or locale. Compare one record against the source by hand before suspecting anything more complicated. See [Import your data](./guides/import-your-data.md).
+Проверьте, что форма работает, контакты актуальны, а страница ясно объясняет услугу и следующий шаг. Для поисковой видимости обсудите SEO-продвижение; для платного трафика — настройку Яндекс Директа.
 
-### Nothing happened at all
+### Сайт плохо находится в Яндексе
 
-Silence is its own category. Check, in order: whether the job started, whether it is waiting on something, and whether it finished and wrote its output somewhere you are not looking. A run that produced no records and a run that never ran look identical from outside.
+ВебРзн предлагает бесплатный экспресс-аудит: отправьте ссылку на сайт, чтобы получить план работ и примерный бюджет. Точные условия подтвердите со студией.
 
 <!-- /widget -->
 
-> **Fill this in:** where a reader sees run history in webrzn.ru, and what a successful run looks like there. This is the single most useful thing on the page, and only you can write it.
+## Что отправить с обращением
 
-## When to ask for help
-
-Ask once you have the three answers from the first section. Send them together with what you already tried, and say what would unblock you — an answer, a workaround, or a fix. That last sentence changes how quickly the right person picks it up.
-
-> **Fill this in:** the support address or form, and a realistic response time. A promise you cannot keep is worse than no promise.
+- адрес страницы;
+- точный текст ошибки или описание симптома;
+- устройство и браузер;
+- время возникновения;
+- что вы уже проверили.
 
 <!-- widget:cards plain cols=2 -->
 
-## Next steps
+## Дальше
 
-- [FAQ](./faq.md) — the questions that come up right after setup {circle-help}
-- [Getting started](./getting-started.md) — retrace the setup {rocket}
+- [Как начать](./getting-started.md) — обсудить новый сайт {rocket}
+- [Связаться через бриф](https://webrzn.ru/order-website.html) — описать задачу {clipboard-list}
 
 <!-- /widget -->

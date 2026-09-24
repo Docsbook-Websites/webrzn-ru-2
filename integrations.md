@@ -1,65 +1,38 @@
 ---
-title: "Integrations"
-description: "Connect webrzn.ru to the tools your team already uses, so results arrive where people work instead of in another tab nobody opens."
+title: "Портфолио и рабочий подход"
+description: "Посмотрите, какие типы сайтов делает ВебРзн и как студия связывает дизайн, разработку, продвижение и поддержку."
 status: generated
-version: "0.1"
+version: "0.2"
 ---
 
-# Integrations
+# Портфолио и рабочий подход
 
-An integration is worth building when it removes a tab somebody opens every day. List here what webrzn.ru connects to, and be honest about which direction the data flows.
+Портфолио ВебРзн включает сайты государственных учреждений, интернет-магазины, корпоративные сайты и лендинги. Основной сайт студии указывает более 600 реализованных проектов с 2003 года.
 
-<!-- widget:cards cols=2 -->
+## Что видно по портфолио
 
-- [Chat and notifications](./guides/invite-your-team.md) — Push results to the channel where decisions get made {message-square}
+- **Госучреждения** — сайты организаций, каталоги и реестры.
+- **Интернет-магазины** — магазины бытовой химии, стройматериалов, пиломатериалов и климатической техники.
+- **Корпоративные сайты** — проекты для юридических компаний, производителей, дилеров и компаний в сфере информационной безопасности.
+- **Лендинги** — страницы для апартаментов, бетонного завода, доставки еды, кадастровых работ и ландшафтного дизайна.
 
-  One-way, and that is usually right: a notification that can also change state turns a chat room into an admin panel.
+Студия описывает подход как полный цикл: проектирование, уникальный дизайн, программирование, наполнение, публикация, SEO-подготовка и поддержка.
 
-- [Data sources](./guides/import-your-data.md) — Read from the systems that already hold your records {database}
+## Как связаны услуги
 
-  Two-way if you write back, and that is the connection to document most carefully.
+Лендинг может быть посадочной страницей для Яндекс Директа. Сайт компании раскрывает несколько направлений. Интернет-магазин добавляет каталог и заказы. SEO и реклама помогают привлечь посетителей после запуска.
 
-<!-- /widget -->
+<!-- widget:callout type=note -->
 
-> **Fill this in:** replace the two cards above with the integrations webrzn.ru really ships, and add one card per integration. An integration page that lists something you have not built is the most expensive kind of wrong.
-
-## Connect over the API
-
-Where no first-party integration exists, the API is the answer. Show the same call in the shapes your readers use.
-
-<!-- widget:code-group -->
-
-Both variants send the same request and get the same response back.
-
-```bash
-curl -X POST "https://api.example.com/v1/events" \
-  -H "Authorization: Bearer $API_TOKEN" \
-  -H "Content-Type: application/json" \
-  -d '{"type": "report.ready", "project": "first-project"}'
-```
-
-```js
-await fetch("https://api.example.com/v1/events", {
-  method: "POST",
-  headers: {
-    Authorization: "Bearer " + process.env.API_TOKEN,
-    "Content-Type": "application/json",
-  },
-  body: JSON.stringify({ type: "report.ready", project: "first-project" }),
-})
-```
+Эта страница описывает типы работ, а не заменяет портфолио со ссылками на каждый проект. Если вам нужны конкретные кейсы, запросите их у студии через [бриф](https://webrzn.ru/order-website.html).
 
 <!-- /widget -->
-
-## What to write about each integration
-
-Four things, and most integration pages skip the last two: what it does, how to connect it, what happens when the other side is unavailable, and how to disconnect it cleanly. The last one matters because somebody eventually has to, usually in a hurry.
 
 <!-- widget:cards plain cols=2 -->
 
-## Next steps
+## Дальше
 
-- [Security and data](./security.md) — what an integration can reach {shield}
-- [Troubleshooting](./troubleshooting.md) — when a connection stops delivering {wrench}
+- [Услуги](./features/overview.md) — сравнить форматы и возможности {layers}
+- [Как начать](./getting-started.md) — перейти к обсуждению задачи {rocket}
 
 <!-- /widget -->

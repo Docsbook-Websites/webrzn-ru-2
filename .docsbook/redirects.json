@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "redirects": [
+    {
+      "from": "integrations",
+      "to": "features/overview",
+      "at": "2026-09-24T12:36:37.909Z"
+    }
+  ]
+}

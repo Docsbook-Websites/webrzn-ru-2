@@ -1,52 +1,65 @@
 ---
-title: "What webrzn.ru can do"
-description: "See what webrzn.ru covers at a glance, decide whether it fits your case, and jump straight to the page that explains the part you need."
+title: "Услуги ВебРзн"
+description: "Сравните форматы сайтов, продвижение и рекламу, которые ВебРзн выполняет для бизнеса и государственных учреждений."
 status: generated
-version: "0.1"
+version: "0.2"
 ---
 
-# What webrzn.ru can do
+# Услуги ВебРзн
 
-Use this page to decide whether webrzn.ru fits, without reading the whole site. Everything here links to the page that explains it properly.
+ВебРзн создаёт сайты под ключ и помогает привлекать на них посетителей. Выберите формат по задаче.
 
-<!-- widget:cards feature cols=3 -->
+## Лендинг
 
-- [Set up a project](../getting-started.md) — Get a first result out of the product today {rocket}
-- [Work with your own data](../guides/import-your-data.md) — Import, check and widen a real source {database}
-- [Share it with colleagues](../guides/invite-your-team.md) — Roles, invitations and access reviews {users}
-- [Connect other tools](../integrations.md) — Send the output where your team already works {plug}
-- [Keep it safe](../security.md) — Who can see what, and where data lives {shield}
-- [Get unstuck](../troubleshooting.md) — The order that finds a cause fastest {wrench}
+Лендинг — одностраничный сайт для одной услуги, товара или рекламной кампании. Студия указывает цену от 25 000 ₽ за лендинг с уникальным дизайном, продающей структурой, адаптивной вёрсткой, формами заявок, Яндекс Метрикой и годом поддержки.
+
+- Собственный код, без конструктора.
+- Структура страницы ведёт к целевому действию.
+- Формы заявок с защитой от спама.
+- Подходит для трафика из Яндекс Директа.
+
+[Подробнее и получить расчёт](https://webrzn.ru/order-website.html)
+
+## Сайт для компании
+
+Корпоративный сайт представляет компанию, услуги и направления. ВебРзн также делает сайты-визитки и сайты для государственных учреждений. Состав страниц, дизайн и стоимость определяются после обсуждения задачи.
+
+- Уникальный дизайн с нуля.
+- Адаптация под мобильные устройства.
+- Наполнение контентом и публикация.
+- SEO-подготовка.
+
+## Интернет-магазин
+
+ВебРзн разрабатывает интернет-магазины на OpenCart. Базовый комплект описан как фиксированные 89 000 ₽ без абонентской платы за сам сайт.
+
+- Каталог без ограничений по товарам и категориям.
+- Корзина, быстрый заказ и личный кабинет.
+- Промокоды, акции и живой поиск с подсказками.
+- Яндекс Метрика и Яндекс Вебмастер.
+- Тестовое наполнение пятью товарами, обучение и год технической поддержки.
+
+Дополнительно можно обсудить эквайринг, доставку СДЭК и BoxBerry, выгрузку на маркетплейсы, интеграцию с 1С и МойСклад, фильтры и наполнение каталога.
+
+[Подробнее и получить расчёт](https://webrzn.ru/order-website.html)
+
+## Продвижение и реклама
+
+ВебРзн занимается SEO-продвижением и настройкой рекламы в Яндекс Директ. Цель — приводить заинтересованные обращения, а не отчитываться только о потоке переходов.
+
+Для экспресс-аудита сайта студия просит прислать ссылку на сайт и обещает предложить план работ с примерным бюджетом в течение 24 часов. Условия конкретного проекта нужно подтвердить до начала работ.
+
+<!-- widget:callout type=note -->
+
+Цены на этой странице взяты из опубликованных описаний лендингов и интернет-магазинов. Для сайта компании, SEO и рекламы точный расчёт зависит от задачи.
 
 <!-- /widget -->
-
-## Day-to-day use
-
-The best feature pages describe a cycle rather than a list: what triggers the work, what the product does with it, and what the person is left holding at the end. Readers recognise their own week in that shape, and they recognise nothing in a bulleted inventory of nouns.
-
-> **Fill this in:** name the two or three things people do in webrzn.ru every week, in their words. If nobody on the team can name them without opening the app, that is the page to write first.
-
-## Working as a team
-
-Documentation for multi-person products lives or dies on one question: who can see and change what. Answer it explicitly — the roles on offer, what each one may do, and which actions cannot be undone.
-
-> **Fill this in:** the real role names and a one-line summary of each. If webrzn.ru is single-player today, say so here; that is useful information, not a gap.
-
-## Where the edges are
-
-<!-- widget:callout type=warning -->
-
-Writing your limits down is the cheapest way to stop a bad-fit customer signing up and churning a month later. State the sizes and rates the product is built for, what happens above them, which platforms and formats are unsupported, and the work webrzn.ru deliberately leaves to other tools.
-
-<!-- /widget -->
-
-The limits you already quote on sales calls belong on a public page, not only in an inbox.
 
 <!-- widget:cards plain cols=2 -->
 
-## Next steps
+## Дальше
 
-- [Getting started](../getting-started.md) — set it up before reading further {rocket}
-- [FAQ](../faq.md) — short answers, including the ones about limits {circle-help}
+- [Как начать](../getting-started.md) — заполнить бриф и обсудить задачу {rocket}
+- [Портфолио и подход](../integrations.md) — посмотреть типы проектов {images}
 
 <!-- /widget -->

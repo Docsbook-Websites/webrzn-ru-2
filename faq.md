@@ -1,59 +1,60 @@
 ---
-title: "Frequently asked questions"
-description: "Short answers to the questions webrzn.ru customers ask most, with a link to the full page whenever the short answer is not enough."
+title: "Частые вопросы о ВебРзн"
+description: "Короткие ответы о форматах сайтов, стоимости, сроках, владении и поддержке."
 status: generated
-version: "0.1"
+version: "0.2"
 ---
 
-# Frequently asked questions
-
-Short answers first. Where a question deserves a page, the answer links to it.
+# Частые вопросы о ВебРзн
 
 <!-- widget:accordion -->
 
-### How do I start?
+### С чего начать?
 
-Follow [Getting started](./getting-started.md). It ends with a working setup rather than a tour. For a first project on a small source, one sitting is enough; large or unusual migrations take longer, so ask us before you plan around a date.
+Заполните [короткий бриф](https://webrzn.ru/order-website.html). Он занимает 2–3 минуты и помогает рассчитать стоимость и сроки под задачу.
 
-### Do I need a developer?
+### Сколько стоит сайт?
 
-> **Fill this in.** "No code required" is the single easiest claim to get wrong, and a reader who disproves it on day two remembers. Say which parts need engineering help and which do not.
+Стоимость зависит от формата и объёма. На сайте ВебРзн опубликованы ориентиры: сайт-визитка — от 25 000 ₽, лендинг — от 25 000 ₽, интернет-магазин на OpenCart — 89 000 ₽ за базовый комплект. Точную сумму фиксируют после обсуждения задачи.
 
-### How do I add or remove someone?
+### Сколько стоит лендинг?
 
-See [Invite your team](./guides/invite-your-team.md). Removal lives in the same settings screen as invitations. When somebody leaves the company, remove them from the project first, then rotate any credential they created — closing an account does not retire the tokens it issued.
+От 25 000 ₽. В описание базового формата входят уникальный дизайн, продающая структура, адаптивная вёрстка, формы заявок, Яндекс Метрика и год поддержки.
 
-### What are the limits?
+### Сколько стоит интернет-магазин?
 
-Ask us and we will give you the numbers that apply to your plan. The shape of them is described in [What webrzn.ru can do](./features/overview.md).
+89 000 ₽ за базовый комплект на OpenCart, без абонентской платы за сам сайт. Дополнительные модули и наполнение каталога обсуждаются отдельно.
 
-### Can I export my data?
+### Как быстро запускается сайт?
 
-Yes, and [Security and data](./security.md) says in which formats. Export before an account closes rather than after.
+Срок зависит от формата, материалов и согласований. Для интернет-магазина студия указывает, что базовый каркас обычно готов примерно за неделю. Для лендинга точный срок фиксируется в договоре.
 
-### Which tools does it connect to?
+### Делаете ли вы уникальный дизайн?
 
-See [Integrations](./integrations.md). Where no first-party integration exists, the API covers it.
+Да. ВебРзн описывает дизайн как уникальный, созданный с нуля под задачу проекта, а не купленный шаблон.
 
-### Something looks wrong. What should I send you?
+### На каких CMS вы работаете?
 
-Three things, and they save a day of back-and-forth: what you expected, what happened instead, and the exact time it happened. A screenshot of the whole window beats a crop — the surrounding state is often the clue. [Troubleshooting](./troubleshooting.md) has the full order.
+На сайте названы WordPress, Joomla, Drupal и OpenCart. Для интернет-магазинов отдельно указан OpenCart.
 
-### Is there a status page?
+### Кому принадлежит сайт?
 
-> **Fill this in:** link it here if you have one. If you do not, say how incidents are announced instead. Silence on this question reads as "nobody is watching".
+Студия указывает, что домен и хостинг оформляются на данные заказчика. Для интернет-магазина авторские права на сайт переходят заказчику. Условия конкретного проекта закрепляются договором.
+
+### Есть ли поддержка после запуска?
+
+В описаниях услуг указан один год технической поддержки. Объём поддержки согласуйте в договоре.
+
+### Работаете ли вы с клиентами не из Рязани?
+
+Да. На сайте указано, что студия работает с клиентами из других регионов России удалённо.
+
+### Как связаться?
+
+Напишите на [info@webrzn.ru](mailto:info@webrzn.ru), позвоните по номеру [+7 (920) 632-55-11](tel:+79206325511) или заполните [бриф](https://webrzn.ru/order-website.html).
 
 <!-- /widget -->
 
-## Adding to this page
+## Остались вопросы
 
-The rule that keeps an FAQ useful: when a question arrives for the second time, write the answer here instead of answering it again. Keep answers under a hundred words — anything longer wants a page of its own.
-
-<!-- widget:cards plain cols=2 -->
-
-## Next steps
-
-- [Troubleshooting](./troubleshooting.md) — when the short answer is not enough {wrench}
-- [Documentation home](./README.md) — everything else on this site {book-open}
-
-<!-- /widget -->
+Опишите задачу в [брифе](https://webrzn.ru/order-website.html). Студия уточнит детали и подготовит расчёт.

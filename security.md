@@ -1,56 +1,45 @@
 ---
-title: "Security and data"
-description: "Answer the questions a security reviewer asks about webrzn.ru: who can see what, where data lives, how long it is kept and how to get it out."
+title: "Договор, права и поддержка"
+description: "Что опубликовано о договоре, владении сайтом и технической поддержке ВебРзн."
 status: generated
-version: "0.1"
+version: "0.2"
 ---
 
-# Security and data
+# Договор, права и поддержка
 
-This page exists so a buyer's security review can be answered from a URL instead of a questionnaire. Write it once, keep it accurate, and send the link.
+ВебРзн указывает, что работает по договору, оформляет домен и хостинг на данные заказчика и предоставляет год бесплатной технической поддержки.
 
-<!-- widget:callout type=note -->
+## Что важно закрепить договором
 
-Every answer below should be one you can defend. A vague "industry-standard encryption" invites a follow-up; a specific "encrypted in transit with TLS 1.2 or later, and at rest by the storage provider" ends the conversation.
+До начала работ согласуйте:
+
+- состав страниц и функций;
+- стоимость и порядок оплаты;
+- сроки и этапы согласования;
+- кому принадлежат домен, хостинг, файлы и права на сайт;
+- состав поддержки после запуска.
+
+Для удалённой работы на сайте студии описана схема с предоплатой 50% и доплатой 50% после готовности и утверждения сайта.
+
+## Владение сайтом
+
+Студия отдельно подчёркивает, что домен и хостинг должны быть оформлены на заказчика. Для интернет-магазина на OpenCart указано, что авторские права на сайт переходят заказчику.
+
+## Поддержка после запуска
+
+В стоимость разработки, по опубликованным описаниям услуг, входит год технической поддержки. Она включает исправление технических проблем и помощь с обновлением контента; для конкретного проекта состав поддержки нужно закрепить договором.
+
+<!-- widget:callout type=warning -->
+
+Не считайте общие формулировки заменой договора. Зафиксируйте права, доступы, стоимость и границы поддержки до начала работ.
 
 <!-- /widget -->
 
-## Who can see what
-
-Access follows the role. Write down which roles exist, what each one can read, and what each one can change — [Invite your team](./guides/invite-your-team.md) has the same table from the administrator's side.
-
-> **Fill this in:** the roles, and any data a role cannot see at all. Reviewers look specifically for whether support staff can read customer content.
-
-## Where data lives
-
-Name the regions your data is stored in, and say whether a customer can choose. If it leaves that region for any reason — a backup, a support tool, a sub-processor — say so here rather than leaving it to be discovered.
-
-> **Fill this in:** regions, sub-processors, and whether a data processing agreement is available.
-
-## How long it is kept
-
-| Kind of data | Kept for | Deleted when |
-| --- | --- | --- |
-| Records you import | Fill this in | Fill this in |
-| Run history and logs | Fill this in | Fill this in |
-| Backups | Fill this in | Fill this in |
-| Account after cancellation | Fill this in | Fill this in |
-
-A retention table with four honest rows is worth more than a page of assurance. It is also the section customers come back to years later, so keep it current.
-
-## Getting your data out
-
-Say which formats are available, who can trigger an export, and how long a full export takes. An export route that exists only as a support request is worth documenting as exactly that — readers trust a specific inconvenient answer more than a comfortable vague one.
-
-## Reporting a vulnerability
-
-> **Fill this in:** the address to report to, whether you run a disclosure programme, and how quickly you acknowledge a report. Researchers who cannot find this page post publicly instead.
-
 <!-- widget:cards plain cols=2 -->
 
-## Next steps
+## Дальше
 
-- [Invite your team](./guides/invite-your-team.md) — roles in practice {users}
-- [FAQ](./faq.md) — the short versions of these answers {circle-help}
+- [Как начать](./getting-started.md) — перейти к обсуждению проекта {rocket}
+- [FAQ](./faq.md) — короткие ответы о стоимости и процессе {circle-help}
 
 <!-- /widget -->
